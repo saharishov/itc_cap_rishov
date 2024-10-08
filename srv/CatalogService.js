@@ -16,7 +16,7 @@ module.exports = cds.service.impl(async function(){
 
     this.on('getOrderDefaults', async(req,res)=>{
 
-        return { OVERALL_STATUS : 'P' }
+        return { OVERALL_STATUS : 'X' }
 
     })
  
